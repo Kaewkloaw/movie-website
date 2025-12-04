@@ -1,16 +1,72 @@
-# React + Vite
+# Movie Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Kaewkloaw/movie_website/ci.yml?branch=main&label=build&logo=github)](https://github.com/Kaewkloaw/movie_website/actions) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![Vite](https://img.shields.io/badge/bundler-Vite-orange.svg)](https://vitejs.dev) [![React](https://img.shields.io/badge/framework-React-61DAFB.svg)](https://reactjs.org)
 
-Currently, two official plugins are available:
+A lightweight Vite + React application to browse and search movies using The Movie Database (TMDB) API. This project is intended as a clean, easy-to-read starter with sensible defaults for development and deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+**Contents**
+- Features
+- Demo
+- Tech stack
+- Quick start
+- Environment
+- Development & scripts
+- Deployment
+- Contributing
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
+- Fast search with debounce to reduce API calls
+- Responsive movie cards with loading and empty states
+- Minimal dependencies and straightforward codebase for easy customization
+- Ready for common static deployments (Vercel, Netlify, GitHub Pages)
 
-## Expanding the ESLint configuration
+## Demo
+<img width="2845" height="1495" alt="image" src="https://github.com/user-attachments/assets/6cc8fdf2-25cd-4a69-83d6-5781709e3786" />
+<img width="2839" height="1493" alt="image" src="https://github.com/user-attachments/assets/5f0d519e-b0b3-4a5b-907f-de2e92aecfd2" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Tech stack
+- Vite
+- React (hooks, functional components)
+- Fetch API (for TMDB requests)
+- Optional: Appwrite for lightweight analytics
+
+## Quick start
+Prerequisites
+- Node.js 18+ and npm
+
+Clone and run locally
+```powershell
+git clone https://github.com/Kaewkloaw/movie_website.git
+cd movie_website
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite (usually `http://localhost:5173`).
+
+## Environment
+This project uses a Vite environment variable for the TMDB API key. Create a `.env` file at the project root with:
+```
+VITE_TMDB_API_KEY=your_tmdb_api_key_here
+```
+Get a key: https://www.themoviedb.org/settings/api
+
+## Development & scripts
+- `npm run dev` — start the dev server
+- `npm run build` — build for production
+- `npm run preview` — preview the production build
+- `npm test` — run tests (if configured)
+
+## Deployment
+- Deploy by connecting this repo to Vercel or Netlify and add the `VITE_TMDB_API_KEY` secret.
+- For GitHub Pages, build to `dist/` and serve the static files.
+
+## Contributing
+- Use feature branches `feat/<name>` or `fix/<name>`.
+- Follow Conventional Commits: `feat:`, `fix:`, `chore:`, `docs:`.
+- Open PRs against `main` with a clear description and screenshots if applicable.
+
+If you want, I can add a `CONTRIBUTING.md`, PR template, and Issue templates.
