@@ -21,8 +21,6 @@ A lightweight Vite + React application to browse and search movies using The Mov
 - Responsive movie cards with loading and empty states
 - Minimal dependencies and straightforward codebase for easy customization
 - Ready for common static deployments (Vercel, Netlify, GitHub Pages)
-
-## Demo
 <img width="2845" height="1495" alt="image" src="https://github.com/user-attachments/assets/6cc8fdf2-25cd-4a69-83d6-5781709e3786" />
 <img width="2839" height="1493" alt="image" src="https://github.com/user-attachments/assets/5f0d519e-b0b3-4a5b-907f-de2e92aecfd2" />
 
