@@ -8,7 +8,7 @@ import { updateSearchCount } from './appwrite.js';
 const API_BASE_URL = 'https://api.themoviedb.org/3';
 
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
-const BEARER_TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNmZjZmUxZjg1MzFkY2FkZDJlZmM3ZjQ3NWRmYzhlZSIsIm5iZiI6MTc2MTQyNzg1NC4wMTMsInN1YiI6IjY4ZmQ0MThkZmUyYjI1NGJmNGZiNmI5NSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ul-B7rSjGJsE2DOprJi0WpPDtRNi_s4triiyUMtnv4s';
+const BEARER_TOKEN = import.meta.env.VITE_BEARER_TOKEN;
 const API_OPTIONS = {
   method: 'GET',
   headers: {
