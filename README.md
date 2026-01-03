@@ -1,70 +1,59 @@
-# Movie Website
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+Movie+Website!;🌷+Created+with+Love+and+Code;✨+Your+Cinema+Paradise&center=true&width=500&height=45&color=F48FB1">
+</p>
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/Kaewkloaw/movie_website/ci.yml?branch=main&label=build&logo=github)](https://github.com/Kaewkloaw/movie_website/actions) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![Vite](https://img.shields.io/badge/bundler-Vite-orange.svg)](https://vitejs.dev) [![React](https://img.shields.io/badge/framework-React-61DAFB.svg)](https://reactjs.org)
+<p align="center">🌼 A lovely web application to discover, search, and explore your favorite movies! 💐</p>
+<div align="center">
+  <h2 >💐 My Tech Garden</h2>
 
-A lightweight Vite + React application to browse and search movies using The Movie Database (TMDB) API. This project is intended as a clean, easy-to-read starter with sensible defaults for development and deployment.
+![React](https://img.shields.io/badge/React-E91E63?style=for-the-badge&logo=react&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F06292?style=for-the-badge&logo=javascript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-EC407A?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-F48FB1?style=for-the-badge&logo=css3&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-F6BDC0?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
+</div>
 
 ---
 
-**Contents**
-- Features
-- Demo
-- Tech stack
-- Quick start
-- Environment
-- Development & scripts
-- Deployment
-- Contributing
+## 📄 Project Description
+<p style="text-align: justify; line-height: 1.6;">
+  This <strong>Movie Website</strong> is a delightful platform designed to help users browse and discover films with ease.
+  Built with modern web technologies, it offers a clean interface to view trending movies, search for specific titles,
+  and read detailed synopses. Whether you are looking for a classic or the latest blockbuster,
+  this garden of movies has something for everyone! 🌸
+</p>
 
-## Features
-- Fast search with debounce to reduce API calls
-- Responsive movie cards with loading and empty states
-- Minimal dependencies and straightforward codebase for easy customization
-- Ready for common static deployments (Vercel, Netlify, GitHub Pages)
-<img width="2845" height="1495" alt="image" src="https://github.com/user-attachments/assets/6cc8fdf2-25cd-4a69-83d6-5781709e3786" />
-<img width="2839" height="1493" alt="image" src="https://github.com/user-attachments/assets/5f0d519e-b0b3-4a5b-907f-de2e92aecfd2" />
+## ✨ Key Features
+* 🌸 **Movie Discovery:** Browse a curated list of popular and trending movies.
+* 🌷 **Search Functionality:** Quickly find specific films by title.
+* 🌺 **Responsive Design:** A beautiful viewing experience on both desktop and mobile devices.
+* 🌼 **Dynamic Details:** View ratings, release dates, and plot summaries instantly.
 
+## 🚀 Getting Started
 
-## Tech stack
-- Vite
-- React (hooks, functional components)
-- Fetch API (for TMDB requests)
-- Optional: Appwrite for lightweight analytics
+### Prerequisites
+* **Node.js** (latest version recommended)
+* **npm** or **yarn**
 
-## Quick start
-Prerequisites
-- Node.js 18+ and npm
+### 🌱 Installation
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/Kaewkloaw/movie-website.git](https://github.com/Kaewkloaw/movie-website.git)
+    ```
+2.  Navigate to the project:
+    ```bash
+    cd movie-website
+    ```
+3.  Install dependencies:
+    ```bash
+    npm install
+    ```
+4.  Start the project:
+    ```bash
+    npm start
+    ```
+    ```bash
+    npm run dev
+    ```
 
-Clone and run locally
-```powershell
-git clone https://github.com/Kaewkloaw/movie_website.git
-cd movie_website
-npm install
-npm run dev
-```
-
-Open the local URL printed by Vite (usually `http://localhost:5173`).
-
-## Environment
-This project uses a Vite environment variable for the TMDB API key. Create a `.env` file at the project root with:
-```
-VITE_TMDB_API_KEY=your_tmdb_api_key_here
-```
-Get a key: https://www.themoviedb.org/settings/api
-
-## Development & scripts
-- `npm run dev` — start the dev server
-- `npm run build` — build for production
-- `npm run preview` — preview the production build
-- `npm test` — run tests (if configured)
-
-## Deployment
-- Deploy by connecting this repo to Vercel or Netlify and add the `VITE_TMDB_API_KEY` secret.
-- For GitHub Pages, build to `dist/` and serve the static files.
-
-## Contributing
-- Use feature branches `feat/<name>` or `fix/<name>`.
-- Follow Conventional Commits: `feat:`, `fix:`, `chore:`, `docs:`.
-- Open PRs against `main` with a clear description and screenshots if applicable.
-
-If you want, I can add a `CONTRIBUTING.md`, PR template, and Issue templates.
