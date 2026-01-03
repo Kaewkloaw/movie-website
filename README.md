@@ -4,7 +4,7 @@
 
 <p align="center">🌼 A lovely web application to discover, search, and explore your favorite movies! 💐</p>
 <div align="center">
-  <h2 >💐 My Tech Garden</h2>
+  <h2 >🎥 Movie Website 🍿</h2>
   
   ![Vite](https://img.shields.io/badge/Vite-F8BBD0?style=for-the-badge&logo=vite&logoColor=white)
   ![React](https://img.shields.io/badge/React-F48FB1?style=for-the-badge&logo=react&logoColor=white)
