@@ -5,16 +5,20 @@
 <p align="center">🌼 A lovely web application to discover, search, and explore your favorite movies! 💐</p>
 <div align="center">
   <h2 >💐 My Tech Garden</h2>
-
-![React](https://img.shields.io/badge/React-E91E63?style=for-the-badge&logo=react&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F06292?style=for-the-badge&logo=javascript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-EC407A?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-F48FB1?style=for-the-badge&logo=css3&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-F6BDC0?style=for-the-badge&logo=nodedotjs&logoColor=white)
+  
+  ![Vite](https://img.shields.io/badge/Vite-F8BBD0?style=for-the-badge&logo=vite&logoColor=white)
+  ![React](https://img.shields.io/badge/React-F48FB1?style=for-the-badge&logo=react&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F06292?style=for-the-badge&logo=javascript&logoColor=white)
+  ![Appwrite](https://img.shields.io/badge/Appwrite-F9A8D4?style=for-the-badge&logo=appwrite&logoColor=white)
+  ![TMDB API](https://img.shields.io/badge/TMDB_API-F6BDC0?style=for-the-badge&logo=themoviedatabase&logoColor=white)
 
 </div>
 
 ---
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6cc8fdf2-25cd-4a69-83d6-5781709e3786" width="45%" alt="Movie Preview 1" />
+  <img src="https://github.com/user-attachments/assets/5f0d519e-b0b3-4a5b-907f-de2e92aecfd2" width="45%" alt="Movie Preview 2" />
+</div>
 
 ## 📄 Project Description
 <p style="text-align: justify; line-height: 1.6;">
@@ -30,13 +34,11 @@
 * 🌺 **Responsive Design:** A beautiful viewing experience on both desktop and mobile devices.
 * 🌼 **Dynamic Details:** View ratings, release dates, and plot summaries instantly.
 
-## 🚀 Getting Started
-
-### Prerequisites
+## 🎄 Prerequisites
 * **Node.js** (latest version recommended)
-* **npm** or **yarn**
+* **npm** 
 
-### 🌱 Installation
+## 🌱 Installation
 1.  Clone the repository:
     ```bash
     git clone [https://github.com/Kaewkloaw/movie-website.git](https://github.com/Kaewkloaw/movie-website.git)
@@ -56,4 +58,10 @@
     ```bash
     npm run dev
     ```
+## 🌺 Environment Setup
+Before blooming, you need to set up your API Key! Create a `.env` file at the root:
+```env
+VITE_TMDB_API_KEY=your_tmdb_api_key_here
+```
+Get a key: https://www.themoviedb.org/settings/api
 
