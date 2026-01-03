@@ -53,9 +53,6 @@
     ```
 4.  Start the project:
     ```bash
-    npm start
-    ```
-    ```bash
     npm run dev
     ```
 ## 🌺 Environment Setup
