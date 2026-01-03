@@ -1,10 +1,7 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+Movie+Website!;🌷+Created+with+Love+and+Code;✨+Your+Cinema+Paradise&center=true&width=500&height=45&color=F48FB1">
-</p>
-
-<p align="center">🌼 A lovely web application to discover, search, and explore your favorite movies! 💐</p>
 <div align="center">
-  <h2 >🎥 Movie Website 🍿</h2>
+  <h1>⭐ Movie Website ⭐ </h1>
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+Movie+Website!;🌷+Created+with+Love+and+Code;✨+Your+Cinema+Paradise&center=true&width=500&height=45&color=F48FB1">
+  <p align="center">🌼 A lovely web application to discover, search, and explore your favorite movies! 💐</p>
   
   ![Vite](https://img.shields.io/badge/Vite-F8BBD0?style=for-the-badge&logo=vite&logoColor=white)
   ![React](https://img.shields.io/badge/React-F48FB1?style=for-the-badge&logo=react&logoColor=white)
