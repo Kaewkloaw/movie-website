@@ -14,7 +14,6 @@
 
 </div>
 
----
 <div align="center">
   <img src="https://github.com/user-attachments/assets/6cc8fdf2-25cd-4a69-83d6-5781709e3786" width="45%" alt="Movie Preview 1" />
   <img src="https://github.com/user-attachments/assets/5f0d519e-b0b3-4a5b-907f-de2e92aecfd2" width="45%" alt="Movie Preview 2" />
